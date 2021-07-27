@@ -1,0 +1,26 @@
+div {
+  border-color: red;
+  height: 125px;
+  width: 125px;
+  background-color: blanchedalmond;
+}
+
+.cards {
+  /* border: 1px solid black; */
+  /* position: relative;
+  left: 500px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr {
+  border-color: red;
+}
+
+h1{
+  text-align: center;
+  font-family: Fantasy;
+  color: blanchedalmond;
+  font-size: 44px;
+  background-color: darkblue
+}
