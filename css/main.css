@@ -1,4 +1,4 @@
-.cards {
+.board {
   margin-left: auto;
   margin-right: auto;
 }
@@ -11,7 +11,7 @@ h1{
   background-color: darkblue
 }
 
-.scene {
+.cell {
   width: 125px;
   height: 125px;
   border: 1px solid #CCC;
