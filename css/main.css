@@ -1,3 +1,7 @@
+body{
+  background-color: red;
+}
+
 .board {
   margin-left: auto;
   margin-right: auto;
@@ -6,17 +10,20 @@
 h1{
   text-align: center;
   font-family: Fantasy;
-  color: blanchedalmond;
+  color: black;
   font-size: 44px;
-  background-color: darkblue
+  font-weight: bold;
+  text-decoration: underline;
+  /* background-color: darkblue */
 }
 
 .cell {
-  width: 125px;
-  height: 125px;
+  width: 100px;
+  height: 100px;
   border: 1px solid #CCC;
   margin: 40px 0;
   perspective: 600px;
+  border: 5px solid yellow;
 }
 
 .card {
@@ -47,7 +54,7 @@ h1{
 }
 
 .card__face--front {
-  background: blanchedalmond;
+  background: blue;
   object-fit: contain;
 }
 
